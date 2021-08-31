@@ -1,0 +1,13 @@
+server:
+  port: 6000
+
+spring:
+#  profiles:
+#    active: dev
+  application:
+    name: demo-provider
+
+  data:
+    mongodb:
+      uri: mongodb://admin:123456@localhost:27017/?authSource=admin
+      database: admin
